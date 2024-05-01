@@ -1,6 +1,7 @@
 class App extends React.Component {
   render() {
     return (
+      <>
       <div className="container">
         <h1>Learn web development</h1>
         <div>
@@ -31,6 +32,7 @@ class App extends React.Component {
         </p>
         </div>
       </div>
+      </>
     );
   }
 }
