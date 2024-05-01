@@ -1,7 +1,7 @@
 class App extends React.Component {
   render() {
     return (
-      <>
+      <div className="container">
         <h1>Learn web development</h1>
         <div>
         <p>
@@ -30,7 +30,7 @@ class App extends React.Component {
           technologies work.
         </p>
         </div>
-      </>
+      </div>
     );
   }
 }
